@@ -1,0 +1,134 @@
+# items and its categories will be refered from https://stackshare.io 
+- id: 1
+  name: Application and Data
+  items: 
+    - id: 1
+      name: CloudFlare
+    - id: 2
+      name: Docker
+    - id: 3
+      name: Ionic
+    - id: 4
+      name: PHP
+    - id: 5
+      name: Laravel
+    - id: 6
+      name: Java
+    - id: 7
+      name: Spring
+    - id: 8
+      name: Node.js
+    - id: 9
+      name: MySQL
+    - id: 10
+      name: PostgreSQL
+    - id: 11
+      name: SQLite
+    - id: 12
+      name: JavaScript
+    - id: 13
+      name: TypeScript
+    - id: 14
+      name: Dart
+    - id: 15
+      name: Debian
+    - id: 16
+      name: Spring Framework
+    - id: 17
+      name: SQL
+    - id: 18
+      name: HTML5
+    - id: 19
+      name: DBeaver
+    - id: 20
+      name: OpenVPN
+    - id: 21
+      name: Ubuntu
+    - id: 22
+      name: Angular
+    - id: 23
+      name: Vue.js
+    - id: 24
+      name: Google Cloud Platform
+    - id: 25
+      name: Next.js
+    - id: 26
+      name: Vuetify
+    - id: 27
+      name: CSS3
+    - id: 28
+      name: Flutter
+    - id: 29
+      name: Tailwind CSS
+    - id: 30
+      name: Google Cloud Run
+    - id: 31
+      name: Cloudflare Pages
+    - id: 32
+      name: Astro
+    - id: 33
+      name: SvelteKit
+- id: 2
+  name: Dev-ops and Monitoring
+  items: 
+    - id: 1
+      name: GitHub
+    - id: 2
+      name: Jira
+    - id: 3
+      name: GitLab
+    - id: 4
+      name: Git
+    - id: 5
+      name: npm
+    - id: 6
+      name: Visual Studio Code
+    - id: 7
+      name: Gitea
+    - id: 8
+      name: VSCodium
+- id: 3
+  name: Business Tools
+  items: 
+    - id: 1
+      name: Asana
+    - id: 2
+      name: Confluence
+    - id: 3
+      name: React
+    - id: 4
+      name: Svelte
+    - id: 5
+      name: Obsidian
+    - id: 6
+      name: Joplin
+- id: 4
+  name: Utilities
+  items: 
+    - id: 1
+      name: Slack
+    - id: 2
+      name: Postman
+    - id: 3
+      name: OpenStreetMap
+    - id: 4
+      name: OpenLayers
+- id: 5
+  name: AI
+  items:
+    - id: 1
+      name: GitHub Copilot
+    - id: 2
+      name: Hugging Face
+    - id: 3
+      name: Ollama
+    - id: 4
+      name: LM Studio
+    - id: 5
+      name: Google Gemini
+    - id: 6
+      name: Codeium
+    - id: 7
+      name: Gemma
+    - id: 8
+      name: Windsurf

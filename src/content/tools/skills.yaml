@@ -1,0 +1,12 @@
+- id: 1
+  name: Distributed Systems
+- id: 2
+  name: REST/gRPC APIs
+- id: 3
+  name: Scalability
+- id: 4
+  name: Unit/integration/E2E testing
+- id: 5
+  name: Code reviews
+- id: 6
+  name: documentation

@@ -1,0 +1,36 @@
+# for less job related app that i use every day
+- id: 1
+  name: Linux Distro
+  items:
+    - id: 1
+      name: Fedora
+    - id: 2
+      name: Pop!_OS (Debian based)
+- id: 2
+  name: Web Browser
+  items:
+    - id: 1
+      name: Betterfox
+    - id: 2
+      name: Firefox
+    - id: 3
+      name: Google Chrome
+    - id: 4
+      name: Mullvad Browser
+    - id: 5
+      name: Brave (Mobile)
+- id: 3
+  name: File Storage & Sync
+  items:
+    - id: 1
+      name: StorageShare Nextcloud
+- id: 4
+  name: Password Manager
+  items:
+    - id: 1
+      name: KeePassXC
+- id: 5
+  name: VPN
+  items:
+    - id: 1
+      name: Mullvad

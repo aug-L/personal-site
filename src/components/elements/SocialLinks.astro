@@ -1,0 +1,45 @@
+---
+// assets
+import Github from "../../assets/icons/Github.astro";
+import GitLab from "../../assets/icons/Gitlab.astro";
+import X from "../../assets/icons/X.astro";
+import Gmail from "../../assets/icons/Gmail.astro";
+import Protonmail from "../../assets/icons/Protonmail.astro";
+
+let socials = [
+  { link: "https://github.com/aug-L", icon: Github, label: "GitHub" },
+  { link: "https://gitlab.com/llchin", icon: GitLab, label: "GitLab" },
+  { link: "https://x.com/lchin214341", icon: X, label: "X/Twitter" },
+];
+
+if (Astro.props.includeEmail) {
+  socials = [
+    { link: "mailto:auglam.lch@gmail.com", icon: Gmail, label: "email-work" },
+    {
+      link: "mailto:chlam.ghpfo7uj@pm.me",
+      icon: Protonmail,
+      label: "email-personal",
+    },
+    ...socials,
+  ];
+}
+---
+
+<div class="flex flex-row gap-24">
+  {
+    socials.map((social) => {
+      const Icon = social.icon;
+      return (
+        <a
+          href={social.link}
+          class="text-base-100 hover:text-base-300"
+          aria-label={social.label}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Icon width={24} height={24} fill="currentColor" />
+        </a>
+      );
+    })
+  }
+</div>

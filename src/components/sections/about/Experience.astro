@@ -1,0 +1,32 @@
+---
+// components
+import Section from "../../elements/Section.astro";
+import ExperienceCard from "../../elements/ExperienceCard.astro";
+
+// content collection
+import { getCollection } from "astro:content";
+const experience = (await getCollection("experience")).sort((a, b) => {
+  var aTo = new Date("01/" + a.data.to);
+  var bTo = new Date("01/" + b.data.to);
+  return bTo.getTime() - aTo.getTime();
+});
+---
+
+<Section
+  aria-label="Work Experience"
+  title="Work Experience"
+  titleHeading="Positions that I have worked in"
+>
+  {
+    experience.map((entry) => (
+      <ExperienceCard
+        title={entry.data.title}
+        company={entry.data.company}
+        from={entry.data.from}
+        to={entry.data.to}
+        desc={entry.data.desc}
+        tags={entry.data.tags}
+      />
+    ))
+  }
+</Section>; ---

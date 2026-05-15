@@ -1,0 +1,23 @@
+---
+// layout
+import Layout from "../layout/Layout.astro";
+
+// components
+import Intro from "../components/sections/Intro.astro";
+import Heading from "../components/elements/Heading.astro";
+import FeaturedProjects from "../components/sections/FeaturedProjects.astro";
+import LatestArticles from "../components/sections/LatestArticles.astro";
+import Section from "../components/elements/Section.astro";
+---
+
+<Layout
+  title="Home"
+  description="Astro Portfolio theme with a retro tech dark design"
+>
+  <!-- <Heading tagName="h1" tagSize="h1">Home</Heading> -->
+  <!-- <Intro /> -->
+  <!-- <Section aria-label="HELLO WORLD" title="HELLO WORLD" /> -->
+  <Heading tagName="h1" tagSize="h1"><b>HELLO WORLD!</b></Heading>
+  <FeaturedProjects />
+  <!-- <LatestArticles /> -->
+</Layout>

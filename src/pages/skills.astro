@@ -1,0 +1,90 @@
+---
+// components
+import Section from "../components/elements/Section.astro";
+import Tag from "../components/elements/Tag.astro";
+import Text from "../components/elements/Text.astro";
+
+// content collection
+import { getCollection } from "astro:content";
+import Layout from "../layout/Layout.astro";
+const skillsAndTools = await getCollection("skillsAndTools");
+const tools = await getCollection("tools");
+const skills = await getCollection("skills");
+const software = await getCollection("software");
+---
+
+<Layout
+  title="Skills"
+  description="Skills, tools, and technologies I used during and outside of work"
+>
+  <Section
+    aria-label="Skills"
+    title="Skills"
+    titleHeading="Skills, tools, and technologies I used during and outside of work"
+  >
+    <Section aria-label="Tools" title="Tools">
+      {
+        tools.map((tool) => (
+          <div class="border-2 border-base-900">
+            <div class="bg-base-900 p-16">
+              <Text variant={"lg"}>{tool.data.name}</Text>
+            </div>
+            <div class="p-16 flex flex-row flex-wrap gap-16">
+              {tool.data.items.map((tag) => (
+                <Tag
+                  title={
+                    tag.exp && tag.exp > 0
+                      ? `${tag.name} (${tag.exp} mo)`
+                      : tag.name
+                  }
+                />
+              ))}
+            </div>
+          </div>
+        ))
+      }
+    </Section>
+    <!-- {
+      skills.map((skill) => (
+        <div class="border-2 border-base-900">
+          <div class="bg-base-900 p-16">
+            <Text variant={"lg"}>{skill.data.name}</Text>
+          </div>
+          <div class="p-16 flex flex-row flex-wrap gap-16">
+            {skill.data.name}
+          </div>
+        </div>
+      ))
+    } -->
+    <!-- {
+      skillsAndTools.map((category) => (
+        <div class="border-2 border-base-900">
+          <div class="bg-base-900 p-16">
+            <Text variant={"lg"}>{category.data.title}</Text>
+          </div>
+          <div class="p-16 flex flex-row flex-wrap gap-16">
+            {category.data.items.map((tag) => (
+              <Tag title={tag} />
+            ))}
+          </div>
+        </div>
+      ))
+    } -->
+    <Section aria-label="Other Software" title="Other Software">
+      {
+        software.map((tool) => (
+          <div class="border-2 border-base-900">
+            <div class="bg-base-900 p-16">
+              <Text variant={"lg"}>{tool.data.name}</Text>
+            </div>
+            <div class="p-16 flex flex-row flex-wrap gap-16">
+              {tool.data.items.map((tag) => (
+                <Tag title={tag.name} />
+              ))}
+            </div>
+          </div>
+        ))
+      }
+    </Section>
+  </Section>
+</Layout>

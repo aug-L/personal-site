@@ -1,0 +1,23 @@
+---
+// utils
+import { currentYear } from "../../utils/currentYear";
+
+// components
+import Text from "../elements/Text.astro";
+import Link from "../elements/Link.astro";
+
+// change the name here
+const { name = "Chunhin Lam" } = Astro.props;
+---
+
+<footer class="flex flex-col gap-16 text-center text-base-600">
+  <Text variant={"sm"}>{name} &copy; {currentYear()}</Text>
+  <Text variant={"sm"}
+    >Built with <Link
+      variant={"inline"}
+      href="https://astro.build"
+      text="Astro"
+      newWindow
+    />
+  </Text>
+</footer>
