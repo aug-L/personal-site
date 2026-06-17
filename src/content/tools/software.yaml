@@ -3,7 +3,7 @@
   name: Linux Distro
   items:
     - id: 1
-      name: Fedora
+      name: Zorin OS (Debian based)
     - id: 2
       name: Pop!_OS (Debian based)
 - id: 2

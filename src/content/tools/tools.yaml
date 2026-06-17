@@ -1,134 +1,126 @@
-# items and its categories will be refered from https://stackshare.io 
+# Tools grouped according to the requested category headings
 - id: 1
-  name: Application and Data
-  items: 
-    - id: 1
-      name: CloudFlare
-    - id: 2
-      name: Docker
-    - id: 3
-      name: Ionic
-    - id: 4
-      name: PHP
-    - id: 5
-      name: Laravel
-    - id: 6
-      name: Java
-    - id: 7
-      name: Spring
-    - id: 8
-      name: Node.js
-    - id: 9
-      name: MySQL
-    - id: 10
-      name: PostgreSQL
-    - id: 11
-      name: SQLite
-    - id: 12
-      name: JavaScript
-    - id: 13
-      name: TypeScript
-    - id: 14
-      name: Dart
-    - id: 15
-      name: Debian
-    - id: 16
-      name: Spring Framework
-    - id: 17
-      name: SQL
-    - id: 18
-      name: HTML5
-    - id: 19
-      name: DBeaver
-    - id: 20
-      name: OpenVPN
-    - id: 21
-      name: Ubuntu
-    - id: 22
-      name: Angular
-    - id: 23
-      name: Vue.js
-    - id: 24
-      name: Google Cloud Platform
-    - id: 25
-      name: Next.js
-    - id: 26
-      name: Vuetify
-    - id: 27
-      name: CSS3
-    - id: 28
-      name: Flutter
-    - id: 29
-      name: Tailwind CSS
-    - id: 30
-      name: Google Cloud Run
-    - id: 31
-      name: Cloudflare Pages
-    - id: 32
-      name: Astro
-    - id: 33
-      name: SvelteKit
-- id: 2
-  name: Dev-ops and Monitoring
-  items: 
-    - id: 1
-      name: GitHub
-    - id: 2
-      name: Jira
-    - id: 3
-      name: GitLab
-    - id: 4
-      name: Git
-    - id: 5
-      name: npm
-    - id: 6
-      name: Visual Studio Code
-    - id: 7
-      name: Gitea
-    - id: 8
-      name: VSCodium
-- id: 3
-  name: Business Tools
-  items: 
-    - id: 1
-      name: Asana
-    - id: 2
-      name: Confluence
-    - id: 3
-      name: React
-    - id: 4
-      name: Svelte
-    - id: 5
-      name: Obsidian
-    - id: 6
-      name: Joplin
-- id: 4
-  name: Utilities
-  items: 
-    - id: 1
-      name: Slack
-    - id: 2
-      name: Postman
-    - id: 3
-      name: OpenStreetMap
-    - id: 4
-      name: OpenLayers
-- id: 5
-  name: AI
+  name: Front-End Development
   items:
     - id: 1
-      name: GitHub Copilot
+      name: HTML5
     - id: 2
-      name: Hugging Face
+      name: CSS3
     - id: 3
-      name: Ollama
+      name: JavaScript
     - id: 4
-      name: LM Studio
-    - id: 5
-      name: Google Gemini
+      name: TypeScript
     - id: 6
-      name: Codeium
+      name: React
     - id: 7
-      name: Gemma
+      name: Next.js
     - id: 8
-      name: Windsurf
+      name: Angular
+    - id: 9
+      name: Vue.js
+    - id: 10
+      name: Svelte
+    - id: 11
+      name: SvelteKit
+    - id: 12
+      name: Astro
+    - id: 13
+      name: Dart
+    - id: 14
+      name: Flutter
+    - id: 15
+      name: Ionic
+    - id: 16
+      name: Vuetify
+    - id: 17
+      name: Tailwind CSS
+- id: 2
+  name: Back-End & Databases
+  items:
+    - id: 1
+      name: PHP
+    - id: 2
+      name: Laravel
+    - id: 3
+      name: Node.js
+    - id: 4
+      name: Spring Framework
+    - id: 5
+      name: Java
+    - id: 6
+      name: SQL
+    - id: 7
+      name: MySQL
+    - id: 8
+      name: PostgreSQL
+    - id: 9
+      name: SQLite
+- id: 3
+  name: DevOps & Infrastructure
+  items:
+    - id: 1
+      name: Docker
+    - id: 2
+      name: Cloudflare Pages
+    - id: 3
+      name: Cloudflare Workers
+    - id: 4
+      name: Google Cloud Platform
+    - id: 5
+      name: Google Cloud Run
+    - id: 6
+      name: Fedora
+    - id: 7
+      name: Debian
+    - id: 8
+      name: Ubuntu
+    - id: 9
+      name: OpenVPN
+- id: 4
+  name: Engineering Tools & Workflow
+  items:
+    - id: 1
+      name: Visual Studio Code
+    - id: 2
+      name: VSCodium
+    - id: 3
+      name: DBeaver
+    - id: 4
+      name: Postman
+    - id: 5
+      name: Git
+    - id: 6
+      name: GitHub
+    - id: 7
+      name: GitLab
+    - id: 8
+      name: Gitea
+    - id: 9
+      name: Jira
+    - id: 10
+      name: Confluence
+    - id: 11
+      name: Asana
+    - id: 12
+      name: Slack
+    - id: 13
+      name: npm
+    - id: 14
+      name: pnpm
+    - id: 15
+      name: OpenLayers
+    - id: 16
+      name: OpenStreetMap
+- id: 5
+  name: AI & Engineering Assistants
+  items:
+    - id: 1
+      name: OpenRouter
+    - id: 2
+      name: GitHub Copilot
+    - id: 3
+      name: Google Gemini
+    - id: 4
+      name: Ollama
+    - id: 5
+      name: LM Studio
