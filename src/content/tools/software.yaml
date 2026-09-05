@@ -3,9 +3,9 @@
   name: Linux Distro
   items:
     - id: 1
-      name: Zorin OS (Debian based)
+      name: Zorin OS (Ubuntu based)
     - id: 2
-      name: Pop!_OS (Debian based)
+      name: Pop!_OS (Ubuntu based)
 - id: 2
   name: Web Browser
   items:
@@ -18,7 +18,7 @@
     - id: 4
       name: Mullvad Browser
     - id: 5
-      name: Brave (Mobile)
+      name: Brave Browser
 - id: 3
   name: File Storage & Sync
   items:

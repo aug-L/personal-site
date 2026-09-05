@@ -10,29 +10,29 @@
       name: JavaScript
     - id: 4
       name: TypeScript
-    - id: 6
+    - id: 5
       name: React
-    - id: 7
+    - id: 6
       name: Next.js
-    - id: 8
+    - id: 7
       name: Angular
-    - id: 9
+    - id: 8
       name: Vue.js
-    - id: 10
+    - id: 9
       name: Svelte
-    - id: 11
+    - id: 10
       name: SvelteKit
-    - id: 12
+    - id: 11
       name: Astro
-    - id: 13
+    - id: 12
       name: Dart
-    - id: 14
+    - id: 13
       name: Flutter
-    - id: 15
+    - id: 14
       name: Ionic
-    - id: 16
+    - id: 15
       name: Vuetify
-    - id: 17
+    - id: 16
       name: Tailwind CSS
 - id: 2
   name: Back-End & Databases
@@ -68,8 +68,6 @@
       name: Google Cloud Platform
     - id: 5
       name: Google Cloud Run
-    - id: 6
-      name: Fedora
     - id: 7
       name: Debian
     - id: 8
@@ -82,34 +80,40 @@
     - id: 1
       name: Visual Studio Code
     - id: 2
-      name: VSCodium
+      name: Zed
     - id: 3
-      name: DBeaver
+      name: Devin
     - id: 4
-      name: Postman
+      name: Cursor
     - id: 5
-      name: Git
+      name: VSCodium
     - id: 6
-      name: GitHub
+      name: DBeaver
     - id: 7
-      name: GitLab
+      name: Postman
     - id: 8
-      name: Gitea
+      name: Git
     - id: 9
-      name: Jira
+      name: GitHub
     - id: 10
-      name: Confluence
+      name: GitLab
     - id: 11
-      name: Asana
+      name: Gitea
     - id: 12
-      name: Slack
+      name: Jira
     - id: 13
-      name: npm
+      name: Confluence
     - id: 14
-      name: pnpm
+      name: Asana
     - id: 15
-      name: OpenLayers
+      name: Slack
     - id: 16
+      name: npm
+    - id: 17
+      name: pnpm
+    - id: 18
+      name: OpenLayers
+    - id: 19
       name: OpenStreetMap
 - id: 5
   name: AI & Engineering Assistants
@@ -117,10 +121,16 @@
     - id: 1
       name: OpenRouter
     - id: 2
-      name: GitHub Copilot
+      name: Venice AI
     - id: 3
-      name: Google Gemini
+      name: GitHub Copilot
     - id: 4
-      name: Ollama
+      name: Google Gemini
     - id: 5
+      name: Grok
+    - id: 6
+      name: llama.cpp
+    - id: 7
+      name: Ollama
+    - id: 8
       name: LM Studio
