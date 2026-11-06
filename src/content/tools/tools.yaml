@@ -44,16 +44,22 @@
     - id: 3
       name: Node.js
     - id: 4
-      name: Spring Framework
+      name: NestJS
     - id: 5
-      name: Java
+      name: HonoJS
     - id: 6
-      name: SQL
+      name: Go
     - id: 7
-      name: MySQL
+      name: C#
     - id: 8
-      name: PostgreSQL
+      name: .NET Core
     - id: 9
+      name: SQL
+    - id: 10
+      name: MySQL
+    - id: 11
+      name: PostgreSQL
+    - id: 12
       name: SQLite
 - id: 3
   name: DevOps & Infrastructure
@@ -68,6 +74,8 @@
       name: Google Cloud Platform
     - id: 5
       name: Google Cloud Run
+    - id: 6
+      name: Azure DevOps
     - id: 7
       name: Debian
     - id: 8
@@ -80,40 +88,34 @@
     - id: 1
       name: Visual Studio Code
     - id: 2
-      name: Zed
-    - id: 3
-      name: Devin
-    - id: 4
-      name: Cursor
-    - id: 5
       name: VSCodium
-    - id: 6
+    - id: 3
       name: DBeaver
-    - id: 7
-      name: Postman
-    - id: 8
+    - id: 4
+      name: Bruno
+    - id: 5
       name: Git
-    - id: 9
+    - id: 6
       name: GitHub
-    - id: 10
+    - id: 7
       name: GitLab
-    - id: 11
+    - id: 8
       name: Gitea
-    - id: 12
+    - id: 9
       name: Jira
-    - id: 13
+    - id: 10
       name: Confluence
-    - id: 14
+    - id: 11
       name: Asana
-    - id: 15
+    - id: 12
       name: Slack
-    - id: 16
+    - id: 13
       name: npm
-    - id: 17
+    - id: 14
       name: pnpm
-    - id: 18
+    - id: 15
       name: OpenLayers
-    - id: 19
+    - id: 16
       name: OpenStreetMap
 - id: 5
   name: AI & Engineering Assistants

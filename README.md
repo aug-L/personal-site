@@ -12,8 +12,8 @@ A portfolio Astro & Tailwind theme built for developers and engineers. Decker wa
 - Home
 - About
 - Projects
-<!-- - Blog
-- Blog post -->
+- Blog
+- Blog post
 - Contact
 - 404
 

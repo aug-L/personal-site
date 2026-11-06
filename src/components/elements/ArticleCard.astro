@@ -16,7 +16,7 @@ const { title, publishedDate, slug, category, readingTime } = Astro.props;
 
 const articleInfo = [
   { icon: Calendar, text: formatDate(publishedDate) },
-  { icon: Tag, text: `#${category}` },
+  { icon: Tag, text: category ? `#${category}` : null},
   { icon: Hourglass, text: `${readingTime} min read` },
 ];
 ---
@@ -31,14 +31,14 @@ const articleInfo = [
       {
         articleInfo.map((info) => {
           const Icon = info.icon;
-          return (
+          return info.text ? (
             <div class="flex flex-row gap-8 text-base-100">
               <Icon width={20} height={20} fill="currentColor" />
               <Text variant={"sm"} class="text-base-300">
                 {info.text}
               </Text>
             </div>
-          );
+          ) : null;
         })
       }
     </div>

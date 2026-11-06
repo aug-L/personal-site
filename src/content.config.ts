@@ -19,7 +19,7 @@ const projects = defineCollection({
   loader: glob({ pattern: "src/content/projects/**/*.md" }),
   schema: z.object({
     id: z.number(),
-    title: z.string().max(50),
+    title: z.string().max(64),
     tools: z.preprocess(
       (val) => (Array.isArray(val) ? val : [val]),
       z.array(
@@ -54,10 +54,10 @@ const blog = defineCollection({
   loader: glob({ pattern: "src/content/blog/**/*.md" }),
   schema: z.object({
     id: z.number(),
-    slug: z.string().max(50),
-    title: z.string().max(50),
+    slug: z.string().max(64),
+    title: z.string().max(64),
     publishedDate: z.date(),
-    category: z.enum(["systems", "ai", "productivity"]), // change and add blog categories here
+    category: z.enum(["systems", "ai", "productivity"]).optional(), // change and add blog categories here
     readingTime: z.number().optional(),
     isDraft: z.boolean(),
   }),
@@ -89,11 +89,11 @@ const tools = defineCollection({
   loader: file("src/content/tools/tools.yaml"),
   schema: z.object({
     id: z.number(),
-    name: z.string().max(50),
+    name: z.string().max(64),
     items: z.array(
       z.object({
         id: z.number(),
-        name: z.string().max(50),
+        name: z.string().max(64),
         exp: z.number().optional(),
       }),
     ),
@@ -103,18 +103,20 @@ const tools = defineCollection({
 const skills = defineCollection({
   loader: file("src/content/tools/skills.yaml"),
   schema: z.object({
-    name: z.string().max(50),
+    name: z.string().max(64),
     exp: z.number().optional(),
+    url: z.url().optional(),
   }),
 });
 
 const software = defineCollection({
   loader: file("src/content/tools/software.yaml"),
   schema: z.object({
-    name: z.string().max(50),
+    name: z.string().max(64),
     items: z.array(
       z.object({
-        name: z.string().max(50),
+        name: z.string().max(64),
+        url: z.url().optional(),
       }),
     ),
   }),
