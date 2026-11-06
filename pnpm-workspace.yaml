@@ -8,3 +8,5 @@ hoist: false
 minimumReleaseAgeExclude:
   - '@astrojs/markdown-satteri@0.3.2'
   - astro@7.0.2
+  - '@astrojs/cloudflare@14.4.6'
+  - '@astrojs/internal-helpers@0.13.1'

@@ -1,15 +1,16 @@
 {
-	"compatibility_date": "2026-05-15",
-	"compatibility_flags": [
-		"global_fetch_strictly_public"
-	],
-	"name": "ps",
-	"main": "@astrojs/cloudflare/entrypoints/server",
-	"assets": {
-		"directory": "./dist",
-		"binding": "ASSETS"
-	},
-	"observability": {
-		"enabled": true
-	}
+  "main": "@astrojs/cloudflare/entrypoints/server",
+  "name": "ps",
+  "compatibility_date": "2026-11-06", // Update to the day you deploy
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "./dist"
+  },
+  "observability": {
+    "enabled": true
+  }
 }
